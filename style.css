@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/depositphotos_5270046-stock-illustration-green-landscape-with-trees.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+main #bird {
+    /* animation: move 50s linear infinite; */
+    position: absolute;
+    z-index: 1;
+}
+
+.contain {
+    width: 100%;
+    height: 10vh;
+    margin-left: 80rem;
+    display: flex;
+    gap: 2%;
+    animation: round 50s linear infinite;
+}
+
+.contain div {
+    background-image: linear-gradient(to bottom, green , rgb(41, 39, 39));
+}
+
+.stroke1 {
+    position: absolute;
+    right: 0px;
+    /* border: solid green; */
+    width: 5%;
+    height: 40vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, green , rgb(41, 39, 39)); */
+}
+
+.stroke2 {
+    position: absolute;
+    /* width: 10%; */
+    right: 20rem;
+    /* border: solid green; */
+    width: 5%;
+    height: 25vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, green , rgb(41, 39, 39)); */
+}
+
+.stroke3 {
+    position: absolute;
+    /* width: 10%; */
+    right: 45rem;
+    /* border: solid green; */
+    width: 5%;
+    height: 50vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, green , rgb(41, 39, 39)); */
+}
+
+.stroke4 {
+    position: absolute;
+    /* width: 10%; */
+    right: 68rem;
+    /* border: solid green; */
+    width: 5%;
+    height: 30vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, green , rgb(41, 39, 39)); */
+}
+
+.stroke5 {
+    position: absolute;
+    width: 10%;
+    left: 25rem;
+    /* border: solid green; */
+    width: 5%;
+    height: 40vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, green , rgb(41, 39, 39)); */
+}
+
+.stroke6 {
+    position: absolute;
+    /* width: 10%; */
+    right: -15rem;
+    /* border: solid green; */
+    width: 5%;
+    height: 15vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, rgb(8, 8, 8), rgb(41, 39, 39)); */
+}
+
+.stroke7 {
+    position: absolute;
+    /* width: 10%; */
+    right: -30rem;
+    /* border: solid green; */
+    width: 5%;
+    height: 48vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, rgb(8, 8, 8), rgb(41, 39, 39)); */
+}
+
+.stroke8 {
+    position: absolute;
+    /* width: 10%; */
+    right: -48rem;
+    /* border: solid green; */
+    width: 5%;
+    height: 70vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, rgb(8, 8, 8), rgb(41, 39, 39)); */
+}
+
+.stroke9 {
+    position: absolute;
+    /* width: 10%; */
+    right: -65rem;
+    /* border: solid green; */
+    width: 5%;
+    height: 30vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, rgb(8, 8, 8), rgb(41, 39, 39)); */
+}
+
+.stroke10 {
+    position: absolute;
+    /* width: 10%; */
+    right: -84rem;
+    /* border: solid green; */
+    width: 5%;
+    height: 83vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, rgb(8, 8, 8), rgb(41, 39, 39)); */
+}
+
+.content {
+    width: 100%;
+    height: 10vh;
+    margin-top: 40rem;
+    margin-left: 80rem;
+    display: flex;
+    gap: 2%;
+    animation: round 50s linear infinite;
+}
+
+.content div {
+    background-image: linear-gradient(to bottom, green , rgb(41, 39, 39));
+}
+
+.line1 {
+    position: absolute;
+    right: 0px;
+    bottom: -140px;
+    /* border: solid green; */
+    width: 5%;
+    height: 40vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, green , rgb(41, 39, 39)); */
+}
+
+.line2 {
+    position: absolute;
+    width: 10%;
+    right: 20rem;
+    bottom: -140px;
+    /* border: solid green; */
+    width: 5%;
+    height: 55vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, green , rgb(41, 39, 39)); */
+}
+
+.line3 {
+    position: absolute;
+    width: 10%;
+    right: 45rem;
+    bottom: -140px;
+    /* border: solid green; */
+    width: 5%;
+    height: 35vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, green , rgb(41, 39, 39)); */
+}
+
+.line4 {
+    position: absolute;
+    width: 10%;
+    right: 68rem;
+    bottom: -140px;
+    /* border: solid green; */
+    width: 5%;
+    height: 57vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, green , rgb(41, 39, 39)); */
+}
+
+.line5 {
+    position: absolute;
+    /* width: 10%; */
+    left: 25rem;
+    bottom: -140px;
+    /* border: solid green; */
+    width: 5%;
+    height: 50vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, green , rgb(41, 39, 39)); */
+}
+
+.line6 {
+    position: absolute;
+    /* width: 10%; */
+    right: -15rem;
+    bottom: -140px;
+    /* border: solid green; */
+    width: 5%;
+    height: 75vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, rgb(8, 8, 8), rgb(41, 39, 39)); */
+}
+
+.line7 {
+    position: absolute;
+    /* width: 10%; */
+    right: -30rem;
+    bottom: -140px;
+    /* border: solid green; */
+    width: 5%;
+    height: 40vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, rgb(8, 8, 8), rgb(41, 39, 39)); */
+}
+
+.line8 {
+    position: absolute;
+    /* width: 10%; */
+    right: -48rem;
+    bottom: -140px;
+    /* border: solid green; */
+    width: 5%;
+    height: 20vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, rgb(8, 8, 8), rgb(41, 39, 39)); */
+}
+
+.line9 {
+    position: absolute;
+    /* width: 10%; */
+    right: -65rem;
+    bottom: -140px;
+    /* border: solid green; */
+    width: 5%;
+    height: 58vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, rgb(8, 8, 8), rgb(41, 39, 39)); */
+}
+
+.line10 {
+    position: absolute;
+    /* width: 10%; */
+    right: -100rem;
+    bottom: -140px;
+    /* border: solid green; */
+    width: 5%;
+    height: 90vh;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, rgb(8, 8, 8), rgb(41, 39, 39)); */
+}
+
+#failed {
+    background: linear-gradient(red, green);
+    width: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 25rem;
+    left: 50rem;
+    display: none;
+}
+
+.stop {
+    animation-play-state: paused;
+}
+
+
+
+
+@keyframes move {
+    from {
+        transform: translatex(-400px);
+    }
+    to {
+        transform: translatex(2000px);
+    }
+    }
+
+@keyframes round {
+    to {
+        transform: translatex(-5200px);
+    }
+    from {
+        transform: translatex(100px);
+    }
+    }
+
+    

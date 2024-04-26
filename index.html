@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <main>
+            <img width="6%" id="bird" src="/images/fly-bird.gif">
+            <div class="contain">
+              <div class="stroke10" id="pipes"></div>
+              <div class="stroke9" id="pipes"></div>
+              <div class="stroke8" id="pipes"></div>
+              <div class="stroke7" id="pipes"></div>
+              <div class="stroke6" id="pipes"></div>
+              <div class="stroke5" id="pipes"></div>
+              <div class="stroke4" id="pipes"></div>
+              <div class="stroke3" id="pipes"></div>
+              <div class="stroke2" id="pipes"></div>
+              <div class="stroke1" id="pipes"></div>
+            </div>
+            <div class="content">
+              <div class="line1" id="pipes"></div>
+              <div class="line2" id="pipes"></div>
+              <div class="line3" id="pipes"></div>
+              <div class="line4" id="pipes"></div>
+              <div class="line5" id="pipes"></div>
+              <div class="line6" id="pipes"></div>
+              <div class="line7" id="pipes"></div>
+              <div class="line8" id="pipes"></div>
+              <div class="line9" id="pipes"></div>
+              <div class="line10" id="pipes"></div>
+            </div>
+            <div id="failed"><p>You failed refresh to start again</p></div>
+        </main>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #block {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+        }
+
+        #blocks {
+            position: absolute;
+            top: 100px;
+            left: 40px;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="block"></div>
+    <div id="blocks"></div>
+
+    <script>
+        let block = document.getElementById("block");
+        let blocks = document.getElementById("blocks");
+        let num = 10;
+
+        function checkCollision() {
+            const blocksRect = blocks.getBoundingClientRect();
+            const blockRect = block.getBoundingClientRect();
+
+            if (
+                blockRect.top < blocksRect.bottom &&
+                blockRect.bottom > blocksRect.top &&
+                blockRect.left < blocksRect.right &&
+                blockRect.right > blocksRect.left
+            ) {
+                alert("You won!");
+            }
+        }
+
+        document.addEventListener("keydown", function (e) {
+            switch (e.key) {
+                case "ArrowDown":
+                    num += 10;
+                    block.style.top = num + "px";
+                    checkCollision();
+                    break;
+            }
+        });
+
+        // Simple animation loop
+        function animateBlock() {
+            num += 1;
+            block.style.top = num + "px";
+            checkCollision();
+            requestAnimationFrame(animateBlock);
+        }
+
+        // Start the animation
+        animateBlock();
+    </script> 
+</body>
+</html>-->
+
