@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", function(){
   let num = 0
   const collisionSound = new Audio("kl-peach-game-over-iii-142453.mp3")
 
-  function playCollisionSound(){
-    collisionSound.play();
-  }
+  // function playCollisionSound(){
+  //   collisionSound.play();
+  // }
 
   function checkCollision(){
     const birdRect = bird.getBoundingClientRect();
