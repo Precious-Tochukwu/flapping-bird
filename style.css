@@ -21,6 +21,7 @@ main #bird {
     /* animation: move 50s linear infinite; */
     position: absolute;
     z-index: 1;
+    border: solid red;
 }
 
 .contain {
